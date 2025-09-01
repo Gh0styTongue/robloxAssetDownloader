@@ -8,15 +8,19 @@ This desktop application, built with Python, is for downloading any Roblox asset
 
 ## Why Is This Different? 👑
 
-Let's be clear: other asset downloaders fail when it comes to videos. They'll hand you a useless playlist file and call it a day.
+Let's be clear: other asset downloaders fail when it comes to videos. They'll hand you a useless playlist file—basically a text document—and call it a day. They leave you stranded, trying to figure out how to piece together a video from a cryptic file that no media player understands. It's a broken, confusing experience.
 
-This is the **first and only Roblox asset downloader** that intelligently handles video assets. It automatically parses the master video playlists, selects the highest quality stream, and downloads the actual video file for you. No manual work, no confusing steps. It just works.
+This is the **first and only Roblox asset downloader** that actually understands how Roblox videos work.
+
+When you give it a video asset ID, it doesn't just dump a useless file on you. It works its magic behind the scenes, automatically handling the complex streaming format, finding the highest quality version, and delivering the final, playable video file directly to your downloads folder. No manual work, no confusing steps, no extra software needed.
+
+It just works. The way it was supposed to from the beginning.
 
 -----
 
 ## Features
 
-  * **Pioneering Video Downloader**: The only tool that automatically downloads Roblox's complex HLS video streams.
+  * **Pioneering Video Downloader**: The only tool that automatically downloads Roblox's complex video streams.
   * **Individual & Bulk Downloading**: Download assets one by one or in large batches.
   * **Private Asset Support**: Effortlessly download private assets using your `.ROBLOSECURITY` cookie and a Place ID.
   * **Customizable UI**: Don't like the default look? Change the application's colors to fit your style.
