@@ -9,12 +9,6 @@ import json
 from datetime import datetime
 
 class RobloxAssetDownloader(tk.Tk):
-    """
-    A 1:1 Python conversion of the Roblox Asset Downloader Electron application.
-    This application allows for downloading of Roblox assets, including private assets,
-    with a graphical user interface built using Tkinter.
-    Includes advanced handling for M3U8 video playlists.
-    """
     def __init__(self):
         super().__init__()
         self.title("Roblox Asset Downloader")
